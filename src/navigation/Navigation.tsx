@@ -3,6 +3,8 @@ import {NavigationContainer} from '@react-navigation/native';
 import SplashScreen from '@features/auth/SplashScreen';
 import LoginScreen from '@features/auth/LoginScreen';
 import {navigationRef} from '@utils/NavigationUtils';
+import UserBottomTabs from '@features/tabs/userBottomTabs';
+import AnimatedTabs from '@features/tabs/AnimatedTabs';
 const Stack = createNativeStackNavigator();
 
 const Navigation = () => {
@@ -20,6 +22,13 @@ const Navigation = () => {
           }}
           name="LoginScreen"
           component={LoginScreen}
+        />
+        <Stack.Screen
+          options={{
+            animation: 'fade',
+          }}
+          name="UserBottomTabs"
+          component={AnimatedTabs}
         />
       </Stack.Navigator>
     </NavigationContainer>

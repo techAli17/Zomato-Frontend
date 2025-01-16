@@ -39,14 +39,16 @@ export const loginStyles = createStyleSheet(({colors, device, border}) => ({
     resizeMode: 'cover',
     borderBottomEndRadius: 60,
     borderBottomStartRadius: 60,
+    borderBottomLeftRadius: 60,
+    borderBottomRightRadius: 60,
   },
   bottomContainer: {
     width: '100%',
     justifyContent: 'center',
     backgroundColor: '#fff',
     alignItems: 'center',
-    paddingVertical: 20,
     paddingHorizontal: 15,
+    paddingBottom: 50,
   },
   title: {
     textAlign: 'center',
@@ -98,6 +100,6 @@ export const loginStyles = createStyleSheet(({colors, device, border}) => ({
   },
   footerText: {
     textDecorationLine: 'underline',
-    fontSize: 10,
+    fontSize: 12,
   },
 }));
