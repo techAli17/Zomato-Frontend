@@ -8,4 +8,7 @@ export const localImage = {
   Reorder: require('../assets/tabIcons/reorder.png'),
   ReorderFocused: require('../assets/tabIcons/reoderFocused.png'),
   blinkIt: require('../assets/icons/blinkit.png'),
+  translationIcon: require('../assets/icons/translation.png'),
+  profileImage: require('../assets/images/user.png'),
+  goldenCircle: require('../assets/icons/golden_circle.png'),
 };
